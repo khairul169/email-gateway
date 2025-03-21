@@ -1,0 +1,19 @@
+<?php
+
+// API Keys (map to SMTP settings)
+$apiKeys = [
+    'your-api-key-1' => [
+        'host' => 'smtp.example.com',
+        'username' => 'user@example.com',
+        'password' => 'password123',
+        'port' => 587,
+        'name' => 'Example Sender'
+    ],
+    'your-api-key-2' => [
+        'host' => 'smtp.mailtrap.io',
+        'username' => 'user@mailtrap.io',
+        'password' => 'password456',
+        'port' => 2525,
+        'name' => 'Mailtrap Sender'
+    ]
+];
