@@ -1,0 +1,5 @@
+dist/
+config.json
+config.json.example
+*.md
+Makefile

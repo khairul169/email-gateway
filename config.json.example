@@ -1,0 +1,9 @@
+{
+    "api-key-1": {
+        "host": "smtp.mail.com",
+        "username": "",
+        "password": "",
+        "port": 587,
+        "name": ""
+    }
+}

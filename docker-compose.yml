@@ -1,0 +1,9 @@
+services:
+  email-gateway:
+    build: .
+    container_name: email-gateway
+    volumes:
+      - ./config.json:/app/config.json
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
